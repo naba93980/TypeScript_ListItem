@@ -16,7 +16,7 @@ export default class ListTemplate implements DOMList {
 
    // singleton obj, as there will only be one ListTemplate object
   static obj: ListTemplate;
-  public getInstance(){
+  public static getInstance(){
     if(!ListTemplate.obj) ListTemplate.obj=new ListTemplate();
     return ListTemplate.obj;
   }
