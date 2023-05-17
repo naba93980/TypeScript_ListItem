@@ -1,0 +1,11 @@
+**********my personal note for identifying MVVM pattern**************
+
+MVVM :
+
+model => localStorage data
+listTemplate.js => template => view => template compiles to view
+fullList.ts & listItems.ts => component => viewModel
+
+
+this project uses two way binding...once a item is added, the model(data) in local storage is updated which triggers re-render
+
