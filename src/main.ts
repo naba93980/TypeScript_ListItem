@@ -1,7 +1,7 @@
 import './css/style.css'
-import FullList from './model/FullList';
+import FullList from './viewModel/FullList';
 import ListTemplate from './templates/ListTemplate';
-import ListItem from './model/ListItem';
+import ListItem from './viewModel/ListItem';
 
 
 const fullList = FullList.getInstance();
